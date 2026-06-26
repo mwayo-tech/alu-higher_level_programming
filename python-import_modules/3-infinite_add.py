@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-
-import sys
-
-total = 0
-
-for i in range(1, len(sys.argv)):
-    total += int(sys.argv[i])
-
 if __name__ == "__main__":
-    print("{}".format(total)))
+    from sys import argv
+    result = 0
+    for i in range(1, len(argv)):
+        result += int(argv[i])
+    print(result)

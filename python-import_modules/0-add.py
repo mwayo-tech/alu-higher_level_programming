@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+def add(a, b):
+    """My addition function
 
-add = __import__('add_0').add
+    Args:
+        a: first integer
+        b: second integer
 
-a = 1
-b = 2
-
-print("{} + {} = {}".format(a, b, add(a, b)))
+    Returns:
+        The return value. a + b
+    """
+    return (a + b))
